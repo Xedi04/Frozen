@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 {
+    width: 1200px;
+    height: 800px;
+    position: relative;
+}
+
+.div2 {
+    background-color: aliceblue;
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    z-index: 2 1;
+    background-image: url("https://wallpapercave.com/wp/wp5779160.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.div3 {
+    background-color: aquamarine;
+    width: 500px;
+    height: 370px;
+    position: absolute;
+    bottom: 30px;
+    right: 220px;
+    z-index: 3;
+    background-image: url("https://www.ppt-backgrounds.net/thumbs/ice-snow-frozen-water-templates.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Caveat', cursive;
+}
+
+.div3 h1 {
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+.div3 p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+input {
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(42, 2, 79);
+    color: white;
+    cursor: pointer;
+}
+
+.div4 {
+    background-color: burlywood;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-image: url("https://www.desktopbackground.org/download/2304x864/2014/09/15/825560_blue-ice-texture-wallpaper_3960x2653_h.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.div5 {
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 140px;
+    right: 350px;
+    z-index: 4;
+    border-radius: 100px;
+    background-image: url("https://i.pinimg.com/originals/c1/e5/88/c1e58891274b3e266055f1e543165b9c.png");
+    background-position: center;
+    background-size: cover;
+}
